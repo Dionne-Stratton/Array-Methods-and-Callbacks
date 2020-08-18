@@ -121,7 +121,7 @@ Parameters:
 function getWinnersByYear(func1, func2) {
     let newArr = [];
     for(let i = 0; i < func1.length; i++){
-        newArr.push('In '+ func2[i] + ', ' + func1[i] + ' won the world cup!');
+        newArr.push(`In ${func2[i]}, ${func1[i]} won the world cup!`);
     }
     return newArr;
 };
